@@ -11,7 +11,7 @@ soda.addEventListener('click', () => {
         numberOfItems = numberOfItems -1;
     }
     
-    items.textContent = numberOfItems;
+    items.textContent = ' ' + numberOfItems;
 });
 
 const cheese = document.getElementById('cheese');
@@ -24,7 +24,7 @@ cheese.addEventListener('click', () =>{
     } else {
         numberOfItems = numberOfItems - 1;
     }
-    items.textContent = numberOfItems;
+    items.textContent = ' ' + numberOfItems;
 });
 
 
@@ -38,7 +38,7 @@ grapes.addEventListener('click', () => {
     } else { 
         numberOfItems=numberOfItems - 1;
     }
-    items.textContent = numberOfItems;
+    items.textContent = ' ' + numberOfItems;
 });
 
 const bread = document.getElementById('bread');
@@ -51,7 +51,7 @@ bread.addEventListener('click', () => {
     } else {
         numberOfItems=numberOfItems-1;
     }
-    items.textContent = numberOfItems;
+    items.textContent = ' ' + numberOfItems;
 });
 
 const watermelon = document.getElementById('watermelon');
@@ -64,7 +64,7 @@ watermelon.addEventListener('click', () => {
     } else {
         numberOfItems=numberOfItems-1;
     }
-    items.textContent = numberOfItems;
+    items.textContent = ' ' + numberOfItems;
     
 });
 
